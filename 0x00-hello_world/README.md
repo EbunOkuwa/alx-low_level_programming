@@ -1,1 +1,1 @@
-script that compiles a C file but does not link.
+script that compiles a Cfile but does not link.
