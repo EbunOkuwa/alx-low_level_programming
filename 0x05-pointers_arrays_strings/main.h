@@ -1,18 +1,16 @@
-#ifndef MAIN.H
-#define MAIN.H
+#ifndef main.h
+#define main.h
 
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
 int _strlen(char *s);
 void _puts(char *str);
-int_putchar(char c);
 void print_rev(char *s);
 void rev_string(char *s);
 void puts_half(char *str);
-void pront_array(int *a, int n);
+void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
-void puts2(char *str);
-int _atoi(char *str);
 int _putchar(char c);
+
 #endif
 
