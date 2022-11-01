@@ -2,12 +2,12 @@
 #include <string.h>
 
 /**
-*_memset -> this memory set function
-*@s: a string
-*@b: a character
-*@n: an integer
-*Return: a string
-**/
+ * _memset -> this memory set function
+ * @s: a string
+ * @b: a character
+ * @n: an integer
+ * Return: a string
+ **/
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int a;
@@ -15,5 +15,5 @@ char *_memset(char *s, char b, unsigned int n)
 	for (a = 0; a < n; a++)
 		s[a] = b;
 
-	returnn (s);
+	return (s);
 }
