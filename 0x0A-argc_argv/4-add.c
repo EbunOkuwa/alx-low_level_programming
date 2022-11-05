@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-int is_number(char *str);
+#include <ctype.h>
+#include <string.h>
 
 /**
- * main - Entry point
- * @argc: arg count
- * @argv: arg vector
- * Return: success
+ * check_num - check - string there are digit
+ * @str: array str
+ *
+ * Return: Always 0 (Success)
  */
 
-int main(int argc, char *argv[])
+int check_num(char *str)
 {
 	int result = 0, i;
 
