@@ -5,7 +5,7 @@ int is_number(char *str);
 
 /**
  * main - Entry point
- * @argc - arg count
+ * @argc: arg count
  * @argv: arg vector
  * Return: success
  */
