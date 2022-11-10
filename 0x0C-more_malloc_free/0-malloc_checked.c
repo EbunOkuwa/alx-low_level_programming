@@ -7,7 +7,7 @@
  * Return: pointer to the allocated memory
  * if malloc fails, status value is equal to 98
  */
-boid *malloc_checked(unsigned int b)
+void *malloc_checked(unsigned int b)
 {
 	char *p;
 
@@ -21,7 +21,7 @@ boid *malloc_checked(unsigned int b)
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * malloc_cheed - allocate a space
+ * malloc_checked - allocate a space
  * @b: unsigned int
  * Return: void
  */
